@@ -9,6 +9,9 @@ import requests
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC
 
+# ! current issues: 
+# ! only one-way trips supported - for now, must fetch return ticket info separately (dynamic page structure when selecting return) 
+# ! can't access city ids for all cities (locked behind API) - must mock for now; perhaps use selenium to type in city names $ get ids from url? 
 
 # Dictionary mapping city names to their corresponding IDs; mocked for now (could integrate selenium -  the full list 
 # is locked for the API)
