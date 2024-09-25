@@ -1,5 +1,5 @@
 import time
-import datetime
+from datetime import datetime
 import pandas as pd
 import numpy as np
 from selenium.webdriver.common.by import By
@@ -69,12 +69,13 @@ def create_dataframe():
     # Pandas used for simplicity (quick verification of functionality with all data stored locally),
     # too much overhead to integrate cloud.
     columns = ['ticket_id', 'origin', 'departure_date', 'departure_hour',
-               'destination', 'arrival_date', 'arrival_hour', 'price', 'currency', 'fare_type']
+               'destination', 'arrival_date', 'arrival_hour', 'price', 'fare_type', 'available']
     df = pd.DataFrame(columns=columns)
     return df
 
 # Inserts data into the DataFrame.
 # @df: DataFrame to insert the ticket into
+# @ticket_id: ID of the ticket (regiojet identifier)
 # @origin: Origin of the ticket (id of the city)
 # @departure_date: Departure date of the ticket (YYYY-MM-DD)
 # @departure_hour: Departure hour of the ticket in local time (HH:MM)
@@ -82,13 +83,13 @@ def create_dataframe():
 # @arrival_date: Arrival date of the ticket (YYYY-MM-DD)
 # @arrival_hour: Arrival hour of the ticket in local time (HH:MM)
 # @price: Price of the ticket (as a string)
-# @currency: Currency of the ticket (e.g., USD)
 # @fare_type: Type of the ticket (e.g., 'regular', 'student', 'senior', 'youth_13_to_17', 'youth_6_to_12', 'youth_under_5')
-def insert_ticket(df, origin, departure_date, departure_hour, destination, arrival_date, arrival_hour, price, currency, fare_type):
+# @available: Number of seats available for the ticket
+def insert_ticket(df, ticket_id, origin, departure_date, departure_hour, destination, arrival_date, arrival_hour, price, fare_type, available):
     # Create a new ticket entry
     new_ticket = {
         # Generate a simple ticket_id based on the curr number of entries
-        'ticket_id': len(df) + 1,
+        'ticket_id': ticket_id,
         'origin': origin,
         'departure_date': departure_date,
         'departure_hour': departure_hour,
@@ -96,17 +97,86 @@ def insert_ticket(df, origin, departure_date, departure_hour, destination, arriv
         'arrival_date': arrival_date,
         'arrival_hour': arrival_hour,
         'price': price,
-        'currency': currency
+        'fare_type': fare_type,
+        'available': available,
     }
     # Append the new ticket to the DataFrame
-    df = df.append(new_ticket, ignore_index=True)
+    df.loc[len(df)] = new_ticket
     return df
 
 # Scrapes the ticket information from the website
-def scrape_tickets(df, url):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    return df
+def scrape_tickets(df, origin, destination, departure_date, fare_type):
+    url = parse_url(origin, destination, departure_date, fare_type)
+    chrome_options = webdriver.ChromeOptions()
+    driver = webdriver.Chrome("chromedriver.exe")
+    driver.implicitly_wait(20)
+    driver.get(url)
+    soup=BeautifulSoup(driver.page_source, 'lxml')
+    
+    # find all dates
+    date_headers = soup.find_all('p', class_='mt-0.5 lg:mt-1 mb-2 lg:mb-3 sm:text-base font-bold')
+
+    # Loop through each date and scrape associated ticket information
+    for date_header in date_headers:
+        date = date_header.text.strip()  # Extract the date text
+        
+        # Convert date to YYYY-MM-DD format
+        # Unconverted: ex. "Wednesday, 25. September 2024"
+        try:
+            date_obj = datetime.strptime(date, "%A, %d. %B %Y")
+            formatted_date = date_obj.strftime("%Y-%m-%d")
+        except ValueError as e:
+            print(f"Date format error: {e}")
+            continue
+
+        # Find the next sibling; should be the 'w-full flex flex-col' containing the tickets for the date above
+        ticket_container = date_header.find_next('div', class_='w-full flex flex-col')
+
+        if ticket_container:
+            tickets = ticket_container.find_all('li')  # Each ticket is in an <li> tag
+            # Loop through tickets & extract details
+            for ticket in tickets:
+                # ! time
+                time_info = ticket.find('h2', class_='h3')  # Extract departure and arrival time
+                if time_info:
+                    departure_hour, arrival_hour = time_info.text.split(' - ')
+
+                # ! price
+                price_info = ticket.find('button', class_='inline-flex items-center justify-center px-2.5 rounded-sm font-bold')
+                if price_info:
+                    # extract last element; normally button text = 'from €19.9', after split & [-1] = '€19.9'
+                    price = price_info.text.strip().split(' ')[-1] 
+                
+                # ! seats available 
+                # Available seats (free seats)
+                if seats_info:
+                    seats_text = seats_info.text.strip()  # Get the text
+                    if "sold out" in seats_text.lower():  # Check if 'sold out' is in the text
+                        available_seats = 0  # Set to 0 if sold out
+                    else:
+                        available_seats = seats_text.split()[-1]  # Extract the number from the text
+                else:
+                    available_seats = 0
+
+                # ! booking info
+                booking_button = ticket.find('button', {'data-id': lambda x: x and 'connection-card' in x})
+                if booking_button:
+                    # Extract the data-id attribute value
+                    data_id = booking_button['data-id']  # 'connection-card-price-7070534785,7330426712'
+                    # Split the IDs if there are multiple ones separated by a comma
+                    ticket_ids = data_id.split('-')[-1].split(',')
+                    # Extract the first ticket ID 
+                    # TODO: handle multiple
+                    primary_ticket_id = ticket_ids[0]  # '7070534785'
+
+                print(f"Date: {date}")
+                print(f"Departure: {departure_hour}, Arrival: {arrival_hour}")
+                print(f"Price: {price}")
+                print('-' * 40)
+                insert_ticket(df, primary_ticket_id, origin, formatted_date, departure_hour, destination, formatted_date, arrival_hour, price, fare_type, available_seats)
+    
+    driver.close() #close the browser
+    return "success"
 
 # Prompt user input from the command line
 def main():
@@ -118,8 +188,7 @@ def main():
     departure_date = input("Enter the departure date (YYYY-MM-DD): ")
     fares = input("Enter the fare types, separated by '-' (TYPE-TYPE-TYPE... e.g. 'regular-regular-senior'): ")
 
-    url = parse_url(origin, destination, departure_date, fares)
-    scrape_tickets(df, url)
+    scrape_tickets(df, origin, destination, departure_date, fares)
     print(df)
 
 
