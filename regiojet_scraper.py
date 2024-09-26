@@ -14,6 +14,9 @@ from selenium.webdriver.support import expected_conditions as EC
 # ! current issues: 
 # ! only one-way trips supported - for now, must fetch return ticket info separately (dynamic page structure when selecting return) 
 # ! can't access city ids for all cities (locked behind API) - must mock for now; perhaps use selenium to type in city names $ get ids from url? 
+# ! must use selenium - requests doesn't fetch appropriate html even after waiting
+service = Service(executable_path="/Users/zdzilowska/Desktop/comp/mine/RegiojetScraper/chromedriver")
+driver = webdriver.Chrome(service=service)
 
 # Dictionary mapping city names to their corresponding IDs; mocked for now (could integrate selenium -  the full list 
 # is locked for the API)
@@ -83,7 +86,7 @@ def create_dataframe():
 # @departure_hour: Departure hour of the ticket in local time (HH:MM)
 # @destination: Destination of the ticket (id of the city)
 # @arrival_date: Arrival date of the ticket (YYYY-MM-DD)
-# @arrival_hour: Arrival hour of the ticket in local time (HH:MM)
+# @arrival_hour: Arrival hour of the ticket in local time (HH:MM). If arrival is day after departure, written as 'HH:MM +1'
 # @price: Price of the ticket (as a string)
 # @fare_type: Type of the ticket (e.g., 'regular', 'student', 'senior', 'youth_13_to_17', 'youth_6_to_12', 'youth_under_5')
 # @available: Number of seats available for the ticket
@@ -110,12 +113,9 @@ def insert_ticket(df, ticket_id, origin, departure_date, departure_hour, destina
 # Scrapes the ticket information from the website
 def scrape_tickets(df, origin, destination, departure_date, fare_type):
     url = parse_url(origin, destination, departure_date, fare_type)
-
-    service = Service(executable_path="/Users/zdzilowska/Desktop/comp/mine/RegiojetScraper/chromedriver")
-    driver = webdriver.Chrome(service=service)
     driver.get(url)
     soup = BeautifulSoup(driver.page_source, 'lxml')
-        
+    
     # find all dates
     date_headers = soup.find_all('p', class_='mt-0.5 lg:mt-1 mb-2 lg:mb-3 sm:text-base font-bold')
     # Loop through each date and scrape associated ticket information
@@ -171,11 +171,6 @@ def scrape_tickets(df, origin, destination, departure_date, fare_type):
                     # Extract the first ticket ID 
                     # TODO: handle multiple
                     primary_ticket_id = ticket_ids[0]  # '7070534785'
-
-                print(f"Date: {date}")
-                print(f"Departure: {departure_hour}, Arrival: {arrival_hour}")
-                print(f"Price: {price}")
-                print('-' * 40)
                 insert_ticket(df, primary_ticket_id, origin, formatted_date, departure_hour, destination, formatted_date, arrival_hour, price, fare_type, available_seats)  
     driver.quit() 
     return "success"
