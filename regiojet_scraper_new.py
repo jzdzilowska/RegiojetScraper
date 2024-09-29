@@ -4,7 +4,7 @@ from datetime import datetime
 import re 
 import itertools
 
-# request headers (regiojet)
+# cURL; headers for regiojet API request
 headers = {
     'accept': 'application/1.2.0+json',
     'accept-language': 'en-US,en;q=0.9',
@@ -24,7 +24,11 @@ headers = {
     'x-lang': 'en',
 }
 
-# request parameters (regiojet)
+# Creates parameters for the Regiojet API request
+# @param departure_date: The departure date in the format 'YYYY-MM-DD'; today if not specified
+# @param return_departure_date: The return departure date in the format 'YYYY-MM-DD'; none if not specified
+# @param from_location_id: Origin location id; regjojet encoding
+# @param to_location_id: Destination location id; regiojet encoding
 def create_params(departure_date, return_departure_date, from_location_id, to_location_id):
     return {
         'tariffs': 'REGULAR',
@@ -36,9 +40,10 @@ def create_params(departure_date, return_departure_date, from_location_id, to_lo
         'returnDepartureDate': return_departure_date,
     }
 
-# params = create_params(date, date, id, id)
-def make_request(headers):
-    params = create_params('2024-10-09', '2024-10-11', '10202052', '10202003')
+# Requests specific connection data from Regiojet API
+# @param headers: Headers for the API request (global var; retrieved from curltopython)
+# @param params: Parameters for the API request (passed in)
+def make_request(headers, params):
     response = requests.get('https://brn-ybus-pubapi.sa.cz/restapi/routes/search/simple', params=params, headers=headers)
     if response.status_code == 200:
         data = response.json()
@@ -47,15 +52,17 @@ def make_request(headers):
         print(f"Failed to retrieve data: {response.status_code}")  # debugging only
         return None
 
+# Helper; converts travel time from hh:mm string to hours
 def convert_travel_time(travel_time_str):
     clean_time_str = re.sub(r'[^\d:]', '', travel_time_str) # original: 04:45xa0h
     hours, minutes = map(int, clean_time_str.split(':'))
     total_hours = hours + (minutes / 60.0)
     return total_hours
 
+# Graphs all possible connections between stations based on locations retr. from regiojet API 
 def make_graph():
     stations = []
-    # iterate through all; find connections - cities as nodes, connections as edges
+    # iterates through all; sets stations as nodes, possible connections as edges
     locs = open('locations.json')
     data = json.load(locs)
     for country in data:
@@ -67,13 +74,14 @@ def make_graph():
                     'city_name': city['name']
                 })
 
-    # generate all possible pairs
+    # Pairs all stations together
     connections = list(itertools.combinations(stations, 2))
     for connection in connections: 
         station1 = connection[0]
         station2 = connection[1]
     return connections
 
+# Converts data from the Regiojet API to fit Tryp
 def convert_to_custom_format(data):
     results = []
     for route in data.get('routes', []):
@@ -84,6 +92,7 @@ def convert_to_custom_format(data):
             "carrier": "REGIOJET",
             "iata_origin": route['departureStationId'],
             "iata_destination": route['arrivalStationId'],
+            # TODO: Ask if correct - include creditPrice?
             "price": int(route['priceFrom']) + int(route['priceTo']),
             "stops": 0,
             "layover_info": None, 
