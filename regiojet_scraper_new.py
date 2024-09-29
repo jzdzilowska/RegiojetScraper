@@ -29,9 +29,9 @@ def create_params(departure_date, return_departure_date, from_location_id, to_lo
     return {
         'tariffs': 'REGULAR',
         'toLocationType': 'CITY',
-        'toLocationId': to_location_id,  # Destination City ID
+        'toLocationId': to_location_id, 
         'fromLocationType': 'CITY',
-        'fromLocationId': from_location_id,  # Origin City ID
+        'fromLocationId': from_location_id,  
         'departureDate': departure_date,
         'returnDepartureDate': return_departure_date,
     }
@@ -75,7 +75,6 @@ def make_graph():
     return connections
 
 def convert_to_custom_format(data):
-    # Assuming data contains relevant fields from the API
     results = []
     for route in data.get('routes', []):
         result = {
@@ -87,7 +86,7 @@ def convert_to_custom_format(data):
             "iata_destination": route['arrivalStationId'],
             "price": int(route['priceFrom']) + int(route['priceTo']),
             "stops": 0,
-            "layover_info": None,  # Placeholder since layovers aren't specified
+            "layover_info": None, 
             "flight_numbers": route['id'],
             "flight_carriers": "REGIOJET",
             "vehicle_type": route['vehicleTypes'],
