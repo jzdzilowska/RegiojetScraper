@@ -29,15 +29,15 @@ headers = {
 # @param return_departure_date: The return departure date in the format 'YYYY-MM-DD'; none if not specified
 # @param from_location_id: Origin location id; regjojet encoding
 # @param to_location_id: Destination location id; regiojet encoding
-def create_params(from_location_id, to_location_id):
+def create_params(from_location_id, to_location_id, departure_date, return_departure_date):
     return {
         'tariffs': 'REGULAR',
         'toLocationType': 'CITY',
         'toLocationId': to_location_id, 
         'fromLocationType': 'CITY',
-        'fromLocationId': from_location_id,  
-        # 'departureDate': departure_date, # ! omit when requesting all possible connections
-        # 'returnDepartureDate': return_departure_date, # ! omit when requesting all possible connections
+        'fromLocationId': from_location_id,   
+        'departureDate': departure_date, # ! omit when requesting all possible connections
+        'returnDepartureDate': return_departure_date, # ! omit when requesting all possible connections
     }
 
 """
@@ -107,14 +107,14 @@ def make_graph():
 # @param headers: Headers for the API request (global var; retrieved from curltopython)
 def check_direct_connection(from_station_id, to_station_id, headers):
     # ! Dates omitted
-    params = create_params(from_station_id, to_station_id)
+    params = create_params(from_station_id, to_station_id, "2024-10-01", "2024-10-02")
     response = requests.get('https://brn-ybus-pubapi.sa.cz/restapi/routes/search/simple', params=params, headers=headers)
     
     if response.status_code == 200:
         data = response.json()
+        print(f"Direct connection found between {from_station_id} and {to_station_id}")  # Debug print
         return data  # Returns the route data
     else:
-        print(f"Failed to retrieve data for stations {from_station_id} -> {to_station_id}: {response.status_code}")
         return None 
 
 # Function to create all station pairs and check connections
@@ -125,7 +125,7 @@ def find_direct_connections():
     direct_connections = []
     # Iterate through all pairs and check for direct routes
     for station1, station2 in connections:
-        route_data = check_direct_connection(station1['station_id'], station2['station_id'], headers)
+        route_data = check_direct_connection(station1, station2, headers)
         if route_data and route_data.get('routes'):
             # Store direct connection info
             direct_connections.append({
