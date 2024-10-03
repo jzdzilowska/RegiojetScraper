@@ -1,1 +1,3812 @@
-[]
+[
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ],
+    [
+        {
+            "departure": "2024-10-03 19:45:00",
+            "arrival": "2024-10-04 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834003",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-03 23:55:00",
+            "arrival": "2024-10-04 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834063,7330426902",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 05:39:00",
+            "arrival": "2024-10-04 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316227",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 07:45:00",
+            "arrival": "2024-10-04 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834010",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 10:39:00",
+            "arrival": "2024-10-04 15:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 63,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316228,7433212973",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 11:45:00",
+            "arrival": "2024-10-04 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834011",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 0,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 14:39:00",
+            "arrival": "2024-10-04 19:35:00",
+            "duration": 4.933333333333334,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 10204003,
+            "price": 52,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316229,7443392295",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN",
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 15:45:00",
+            "arrival": "2024-10-04 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834012",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 17:36:00",
+            "arrival": "2024-10-04 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316230",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 19:45:00",
+            "arrival": "2024-10-05 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 46,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834013",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-04 23:55:00",
+            "arrival": "2024-10-05 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834067,7330426926",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 05:39:00",
+            "arrival": "2024-10-05 09:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 48,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316249",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 07:45:00",
+            "arrival": "2024-10-05 12:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834020",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 10:39:00",
+            "arrival": "2024-10-05 14:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 78,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316250",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 11:45:00",
+            "arrival": "2024-10-05 16:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 60,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834021",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 14:39:00",
+            "arrival": "2024-10-05 18:37:00",
+            "duration": 3.966666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 45,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316251",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 15:45:00",
+            "arrival": "2024-10-05 20:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834022",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 17:36:00",
+            "arrival": "2024-10-05 21:37:00",
+            "duration": 4.016666666666667,
+            "carrier": "REGIOJET",
+            "iata_origin": 3741302011,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7330316252",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 19:45:00",
+            "arrival": "2024-10-06 00:30:00",
+            "duration": 4.75,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 10204003,
+            "price": 34,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834023",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS"
+            ],
+            "flight_number_was_scraped": false
+        },
+        {
+            "departure": "2024-10-05 23:55:00",
+            "arrival": "2024-10-06 05:46:00",
+            "duration": 5.85,
+            "carrier": "REGIOJET",
+            "iata_origin": 4218903000,
+            "iata_destination": 372825000,
+            "price": 62,
+            "stops": 0,
+            "layover_info": null,
+            "flight_numbers": "7381834071,7330426950",
+            "flight_carriers": "REGIOJET",
+            "vehicle_type": [
+                "BUS",
+                "TRAIN"
+            ],
+            "flight_number_was_scraped": false
+        }
+    ]
+]
