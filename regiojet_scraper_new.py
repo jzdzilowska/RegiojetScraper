@@ -128,8 +128,8 @@ def find_direct_connections():
     connections = make_graph()
     # Used to store only those available
     direct_connections = []
-    for station1, station2 in connections[:10]:  # Debugging; only check first 10 connections
-        route_data = check_direct_connection("10202052", "10202003", headers)
+    for station1, station2 in connections:  # Debugging; only check first 10 connections
+        route_data = check_direct_connection(station1, station2, headers)
         if route_data and route_data.get('routes'):
             # Store direct connection info
             direct_connections.append(convert_to_custom_format(route_data))
