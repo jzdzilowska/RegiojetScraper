@@ -32,9 +32,9 @@ headers = {
 def create_params(from_location_id, to_location_id, departure_date, return_departure_date):
     params = {
         'tariffs': 'REGULAR',
-        'toLocationType': 'CITY',
+        'toLocationType': 'STATION',
         'toLocationId': to_location_id, 
-        'fromLocationType': 'CITY',
+        'fromLocationType': 'STATION',
         'fromLocationId': from_location_id,   
     }
     if departure_date:
@@ -98,7 +98,7 @@ def make_graph():
                     stations.append({
                         'station_id': station['id'],
                         'station_name': station['name'],
-                        'city_name': city['name']
+                        'city_id': city['id']
                     })
     # Pairs all stations together
     connections = list(itertools.combinations(stations, 2))
@@ -108,6 +108,21 @@ def make_graph():
 # @param from_station_id: Origin station id (regiojet encoding)
 # @param to_station_id: Destination station id (regiojet encoding)
 # @param headers: Headers for the API request (global var; retrieved from curltopython)
+# @return: Data from the API request if successful: 
+# {'routes': 
+#   'id': '7381834075,7330426972', 
+#   'departureStationId': 4218903000, - THIS DOESN'T MATCH THE CITY ID ADDED TO REQUEST
+#   'departureTime': '2024-10-06T23:55:00.000+02:00', 
+#   'arrivalStationId': 372825000, 
+#   'arrivalTime': '2024-10-07T05:46:00.000+02:00', 
+#   'vehicleTypes': ['BUS', 'TRAIN'], 
+#   'transfersCount': 1, 
+#   'freeSeatsCount': 6, 
+#   'priceFrom': 36.2, 
+#   'priceTo': 39.0, 
+#   'creditPriceFrom': 36.0, 
+#   'creditPriceTo': 38.8, 
+#   .......
 def check_direct_connection(from_station_id, to_station_id, headers):
     # ! Dates omitted
     try:
@@ -128,11 +143,11 @@ def find_direct_connections():
     connections = make_graph()
     # Used to store only those available
     direct_connections = []
-    for station1, station2 in connections:  # Debugging; only check first 10 connections
-        route_data = check_direct_connection(station1, station2, headers)
+    for station1, station2 in connections:  
+        route_data = check_direct_connection(station1, station2, headers) 
         if route_data and route_data.get('routes'):
             # Store direct connection info
-            direct_connections.append(convert_to_custom_format(route_data))
+            direct_connections.append(convert_to_custom_format(route_data)) # outputs stat
             
     with open('direct_connections.json', 'w') as outfile:
         json.dump(direct_connections, outfile, indent=4)
